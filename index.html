@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Search App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Email Search App</h1>
+        <label for="emailList">Paste Email List:</label>
+        <textarea id="emailList" placeholder="Past your emailList"></textarea>
+        
+        <label for="searchKeyword">Search Keyword:</label>
+        <input type="text" id="searchKeyword" placeholder="Enter keyword">
+        
+        <button onclick="searchEmails()">Search</button>
+
+        <div id="resultContainer">
+            <h2>Search Results:</h2>
+            <ul id="results"></ul>
+            <button onclick="copyToClipboard()">Copy to Clipboard</button>
+            <button id="clearAppBtn" onclick="clearApp()">Clear App</button>
+            <button id="exportBtn" onclick="exportResults()">Export Results</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
