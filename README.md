@@ -14,6 +14,10 @@ This simple web app allows users to search for specific keywords within an email
 - **Loading Indicator:** Shows a loading message during the search process.
 - **Export Results:** Export the search results to a text file for further analysis.
 
+
+![App Screenshot](./screenshot.png)
+
+
 ## How to Use
 
 1. **Paste Email List:**
